@@ -12,6 +12,7 @@ const HomeTwo = SuspenseLazy(() => import(/* webpackChunkName:"home-two" */ '@/v
 const HomeThree = SuspenseLazy(() => import(/* webpackChunkName:"home-three" */ '@/view/Home/HomeThree'));
 const HomeFour = SuspenseLazy(() => import(/* webpackChunkName:"home-four" */ '@/view/Home/HomeFour'));
 const HomeMobx = SuspenseLazy(() => import(/* webpackChunkName:"home-mobx" */ '@/view/Home/HomeMobx'));
+const HomeDemo = SuspenseLazy(() => import(/* webpackChunkName:"home-mobx" */ '@/view/Home/HomeDemo'));
 const HomeIcon = SuspenseLazy(() => import(/* webpackChunkName:"home-icon" */ '@/view/Home/HomeIcon'));
 const HomeOrder = SuspenseLazy(() => import(/* webpackChunkName:"home-order" */ '@/view/Home/HomeOrder'));
 const Dashboard = SuspenseLazy(() => import(/* webpackChunkName:"dashboard" */ '@/view/Dashboard'));
@@ -47,6 +48,10 @@ const routes: RouteObject[] = [
             {
                 path: 'mobx',
                 element: HomeMobx
+            },
+            {
+                path: 'demo',
+                element: HomeDemo
             },
             {
                 path: 'icon',

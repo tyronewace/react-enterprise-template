@@ -36,6 +36,7 @@ function Home() {
         {name: 'Pokemon', icon: <GameController />, link: '/home/two'},
         {name: 'HomeThree', icon: <FileTsx />, link: '/home/three'},
         {name: 'Mobx 数据更新', icon: <HardDrives />, link: '/home/mobx'},
+        {name: 'Demo', icon: <HardDrives />, link: '/home/demo'},
         {name: 'Phosphor 图标库', icon: <InstagramLogo />, link: '/home/four'},
         {name: 'Svg 封装', icon: <IceCream />, link: '/home/icon'},
         {name: '订单查询', icon: <Keyboard />, link: '/home/order'}
